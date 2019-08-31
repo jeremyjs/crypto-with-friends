@@ -37,13 +37,13 @@
   },
   "homepage": "https://github.com/OpenZeppelin/starter-kit/blob/stable/README.md",
   "dependencies": {
-    "dotenv": "^6.2.0",
-    "truffle-hdwallet-provider": "^1.0.3"
+    "dotenv": "6.2.0",
+    "truffle-hdwallet-provider": "1.0.3"
   },
   "devDependencies": {
-    "@openzeppelin/cli": "^2.5.3",
-    "chai": "^4.2.0",
-    "husky": "^3.0.4",
-    "openzeppelin-test-helpers": "^0.4.3"
+    "@openzeppelin/cli": "2.5.3",
+    "chai": "4.2.0",
+    "husky": "3.0.4",
+    "openzeppelin-test-helpers": "0.4.3"
   }
 }
