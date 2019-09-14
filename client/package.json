@@ -10,12 +10,15 @@
     "pre-commit": "echo \"client: no pre-commit configured\""
   },
   "dependencies": {
+    "crypto": "1.0.1",
     "expo": "34.0.1",
+    "fortmatic": "0.8.2",
     "mem": "5.1.1",
     "react": "16.8.3",
     "react-dom": "16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
     "react-native-web": "0.11.4",
+    "web3": "0.20.7",
     "ws": "7.1.2"
   },
   "devDependencies": {
