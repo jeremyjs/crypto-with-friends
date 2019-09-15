@@ -10,11 +10,16 @@
     "pre-commit": "echo \"client: no pre-commit configured\""
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.22",
+    "@fortawesome/free-solid-svg-icons": "5.10.2",
+    "@fortawesome/react-native-fontawesome": "0.1.0",
     "expo": "34.0.1",
     "mem": "5.1.1",
     "react": "16.8.3",
     "react-dom": "16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-elements": "1.2.0",
+    "react-native-svg": "9.9.3",
     "react-native-web": "0.11.4",
     "ws": "7.1.2"
   },

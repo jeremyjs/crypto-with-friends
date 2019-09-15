@@ -1,20 +1,11 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-import Profile from "./components/Profile"
+import { ThemeProvider } from 'react-native-elements'
+import RootComponent from './components/Root'
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})
-
-export const App = () => {
-  return (
-    <Profile/>
-  )
-}
+const App = () => (
+  <ThemeProvider>
+    <RootComponent />
+  </ThemeProvider>
+)
 
 export default App
